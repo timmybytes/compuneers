@@ -1,0 +1,43 @@
+/*
+  Site container
+*/
+
+.container {
+  // width: $container-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container a {
+  // text-decoration: underline;
+}
+
+p a {
+  border-bottom: 1px solid #000;
+  &:hover {
+    color: #3eb1df;
+    border-bottom: 1px solid #3eb1df;
+  }
+}
+
+.posts-wrapper {
+  padding-top: $header-thickness + 10px;
+  margin: auto;
+  display: block;
+  width: $container-width - 20px;
+}
+.posts-wrapper h1 {
+  margin: 20px 0px 5px;
+}
+@media (max-width: $container-width) {
+  .container {
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .posts-wrapper {
+    padding-top: $header-thickness + 10px;
+    margin: auto;
+    display: block;
+    width: 95vw;
+  }
+}
