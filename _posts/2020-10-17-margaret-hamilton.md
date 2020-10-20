@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Margaret Hamilton"
+title: "Margaret Hamilton (1936 - )"
 author: "Timothy Merritt"
 categories: figures
 tags: [figures]

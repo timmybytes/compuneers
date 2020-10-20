@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Post Template
-author: 'Author'
+author:
 categories: meta
 tags: [meta]
 image:
+figure-id:
 ---
 
 This is one example of a post written in `markdown`. It should contain some combination of the following content to be added to the site.

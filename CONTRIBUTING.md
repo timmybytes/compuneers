@@ -1,9 +1,9 @@
 # Contributing
 
 **Contents**
-[Adding a figure to the Figure List]()
-[Writing about a figure already in the Figure List]()
-[Style Guide]()
+[Adding a figure to the Figure List](#adding-a-figure-to-the-figure-list)
+[Writing about a figure already in the Figure List](#writing-about-a-figure-in-the-figure-list)
+[Style Guide](#style-guide)
 
 
 To contribute a new figure post to the project, start by opening an issue for a specific figure according to the instructions below.
@@ -45,12 +45,13 @@ Posts should follow the [Post Template](#) format that includes the following:
 
   ```yaml {id="post-template" class="" data-filename="test.py"}
   ---
-  layout: post # 'Post' layout required
-  title: Post Template # 'Ada Lovelave (1815-1852)'
-  author: 'Your Name' # 'Jane Doe'
-  categories: meta # See below
-  tags: [meta] # See below
-  image: [image-filename] # See Below
+  layout: post                      # 'post' layout required
+  title: 'Ada Lovelave (1815-1852)' # Figure name and birth-death
+  author: 'Your Name'               # or leave blank if desired
+  categories: figures               # 'figures' category required
+  tags: [figures]                   # 'figures' tag required
+  image: [image-filename]           # See Below
+  figure-id: AAA000                 # See below
   ---
 
   ```
