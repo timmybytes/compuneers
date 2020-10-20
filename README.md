@@ -8,19 +8,15 @@ Contributions are welcome, encouraged, and needed! There are so many people's st
 
 ## License
 
-Compuneers currently uses [Paul Le's Millennial Jekyll theme](https://github.com/LeNPaul/portfolio-jekyll-theme), licensed under the MIT License. Compuneers itself is also licensed under the MIT License.
+Compuneers currently uses [Paul Le's Millennial Jekyll theme](https://github.com/LeNPaul/portfolio-jekyll-theme), licensed under the MIT License. Compuneers itself is also licensed under the [MIT License](https://github.com/timmybytes/compuneers/blob/main/LICENSE.md).
 
 ---
-<!-- TODO: Finish before initial push -->
-
-## To Do
-
-- Migrate Figure List to table-format
-- Remove all Millenium boilerplate
-- Refactor SCSS
 
 ### Issues
 
 - Add more figures to FIGURES.md
-- Add more resources to FIGURES.md
-- Scroll to top feature
+- Add more resources to FIGURES.md (for finding new figures) or add more resources to the [Resources site-page](https://timmybytes.github.io/compuneers/pages//resources.html)
+- Add simple Scroll-to-Top feature
+- Create directories in `/asstes/img/` for each figure in the [Figure List](./Figure-List.md) according to their `figure-id`
+- Add images to figure-id specific directories in `/assets/img/`
+- Documentation improvements

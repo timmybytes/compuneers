@@ -1,6 +1,5 @@
 # Contributing
 
-**Contents**
 [Adding a figure to the Figure List](#adding-a-figure-to-the-figure-list)
 [Writing about a figure already in the Figure List](#writing-about-a-figure-in-the-figure-list)
 [Style Guide](#style-guide)
@@ -10,7 +9,7 @@ To contribute a new figure post to the project, start by opening an issue for a 
 
 ## Adding a figure to the Figure List
 
-1. Open an [issue for a new figure](https://github.com/timmybytes/compuneers/issues/new?assignees=&labels=enhancement&template=add-a-new-figure.md&title=) and fill in the required fields to discuss the proposed addition with maintainers, and to ensure the figure is a good fit for the project:
+1. Open a [new figure issue](https://github.com/timmybytes/compuneers/issues/new?assignees=&labels=enhancement&template=add-a-new-figure.md&title=), and fill in the required fields to discuss the proposed addition with maintainers, and to ensure the figure is a good fit for the project:
 
    - The figure should be a woman, a person of color, and/or LGBTQIA+. This rule is very flexible, but keep in mind the project is specifically meant to lift up overlooked and marginalized figures in Computer Science history. Steve Jobs and Bill Gates are not the target demographic to feature here.
    - The figure should work or have worked in or contributed to the general field of Computer Science in a meaningful way.
@@ -30,74 +29,12 @@ To contribute a new figure post to the project, start by opening an issue for a 
 
 ## Writing about a figure already in the Figure List
 
-1. Open a new issue
-
-
-- The post adheres to the project's [Style Guide](#style-guide) and [Code of Conduct](https://github.com/timmybytes/compuneers/blob/main/CODE_OF_CONDUCT.md)
+1. Open a new [new figure post issue](https://github.com/timmybytes/compuneers/issues/new?assignees=&labels=enhancement&template=write-a-new-figure-post.md&title=New+Figure+Post+-+%5BFigure+Name+Here%5D).
+2. Wait until you're assigned the figure you're interested in, then:
+   - Fork the repo
+   - Create a new file in the `_posts` directory that follows the [post template](https://timmybytes.github.io/compuneers/meta/post-template.html)
 
 
 ## Style Guide
 
-Posts should follow the [Post Template](#) format that includes the following:
-
-- A `markdown` file titled in the following format: `YYYY-MM-DD-lowercase-name-of-figure.md` with a `YAML` style header area for relevant metadata:
-
-  ```yaml {id="post-template" class="" data-filename="test.py"}
-  ---
-  layout: post                      # 'post' layout required
-  title: 'Ada Lovelave (1815-1852)' # Figure name and birth-death
-  author: 'Your Name'               # or leave blank if desired
-  categories: figures               # 'figures' category required
-  tags: [figures]                   # 'figures' tag required
-  image: [image-filename]           # See Below
-  figure-id: AAA000                 # See below
-  ---
-
-  ```
-
-
-Posts on Compuneers should consist of an image and three `h2` header/sections, with linked, reputable sources:
-
-- An image of the figure in question (if available), added **only** to the `compuneers/assets/img` directory. The image name should follow the convention of `Person-Name_Width-In-Pixels.ext` (ex: `Margaret-Hamilton_540px.png`). If an image is too low in resolution it may be removed during the merge process.
-- An **About** section of biographical information
-- A section featuring figure's **Work** in Computer Science/contributions to the field
-- A **Further Reading** section with the post's sources and/or relevant links
-- (Optional) A section featuring figure's awards and/or accolades
-- (Optional) Trivia/Interesting facts
-
-```yaml
----
-
-layout: post
-title: Ada Lovelave (1815-1852)
-author: Jane Doe
-categories: meta
-tags: [programming, pioneers]
-image: Ada-Lovelace_540px.px
-
----
-
-## About
-
-Augusta Ada King, Countess of Lovelace, (1815 - 1852) was an
-English pioneer in the field of computing. The daughter of poet
-Lord Byron, Lovelace’s influence is still prominent today from her
-contributions with Charles Babbage to early programming.
-
-Ada Lovelace is widely regarded as the first computer programmer.
-She is most well-known for her work on Charles Babbage’s
-[Analytical Engine](<https://en.wikipedia.org/wiki/Analytical_Engine>,
-which included devising an algorithm to compute [Bernoulli
-numbers](https://en.wikipedia.org/wiki/Bernoulli_number), and
-anticipating modern computing a century before being realized.
-
-## Further Reading
-
-- [Sketch of The Analytical Engine with Notes by Ada Lovelace](http://www.fourmilab.ch/babbage/sketch.html)
-- [Ada Lovelace (Retroactive) Obituary - New York Times](https://www.nytimes.com/interactive/2018/obituaries/overlooked-ada-lovelace.html)
-- [Ada programming language](<https://en.wikipedia.org/wiki/Ada_(programming_language)>), named after Ada Lovelace
-- [Ada Lovelace Day](https://findingada.com/)
-
-```
-
-<figcaption align="center">Sample post on Ada Lovelace</figcaption>
+Posts should use the [post template](https://timmybytes.github.io/compuneers/meta/post-template.html) as a style guide.
