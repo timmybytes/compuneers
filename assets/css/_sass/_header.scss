@@ -3,13 +3,14 @@
   width: 100%;
   position: fixed;
   background-color: white;
-  box-shadow: 1px 1px 6px #bbb;
+  box-shadow: 1px 1px 7px rgb(230, 230, 230);
   z-index: 100;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 5px 0;
 }
+
 @media (max-width: $container-width) {
   .site-header {
     min-height: 56px;

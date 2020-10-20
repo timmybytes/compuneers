@@ -10,7 +10,6 @@ an 'h2' heading followed by the main bullet points below:
   Typically '001' will be fine for the number until the project starts
   to scale, though you can simply search the document for your ID to
   check for duplicates, and if needed increment by 1 (ex: Jade Allen = ALL002)
-  * One sentence biographical `Blurb`
   * `Sources` (at least one), with sub-list for individual `Links`
     * `Links`
   * `Status`: `Not Published` | `Published`
@@ -41,7 +40,6 @@ an 'h2' heading followed by the main bullet points below:
 ## Frances Allen
 
 * `ID` : `ALL001`
-* `Blurb` :
 * `Sources` :
   * [Wikipedia](https://en.wikipedia.org/wiki/Frances_Allen)
 * `Status` : `Not Published`
@@ -49,7 +47,6 @@ an 'h2' heading followed by the main bullet points below:
 ## Elisa Bertino
 
 * `ID` : `BER001`
-* `Blurb` :
 * `Sources` :
   * [IEEE - Diversity and Inclusion Task Force Interview](https://www.computer.org/publications/tech-news/events/women-in-stem-elisa-bertino)
 * `Status` : `Not Published`
@@ -57,7 +54,6 @@ an 'h2' heading followed by the main bullet points below:
 ## Anita Borg
 
 * `ID` : `BOR001`
-* `Blurb` :
 * `Sources` :
   * [Wikipedia](https://en.wikipedia.org/wiki/Anita_Borg)
 * `Status` : `Not Published`
@@ -65,7 +61,6 @@ an 'h2' heading followed by the main bullet points below:
 ## Thelma Estrin
 
 * `ID` : `EST001`
-* `Blurb` :
 * `Sources` :
   * [ETHW](https://ethw.org/Thelma_Estrin)
 * `Status` : `Not Published`
@@ -73,7 +68,6 @@ an 'h2' heading followed by the main bullet points below:
 ## Shafi Goldwasser
 
 * `ID` : `GOL001`
-* `Blurb` :
 * `Sources` :
   * [Wikipedia](https://en.wikipedia.org/wiki/Shafi_Goldwasser)
 * `Status` : `Not Published`
@@ -81,7 +75,6 @@ an 'h2' heading followed by the main bullet points below:
 ## Susan L. Graham
 
 * `ID` : `GRA001`
-* `Blurb` :
 * `Sources` :
   * [Wikipedia](https://en.wikipedia.org/wiki/Susan_L._Graham)
 * `Status` : `Not Published`
@@ -89,7 +82,6 @@ an 'h2' heading followed by the main bullet points below:
 ## Laura Haas
 
 * `ID` : `HAA001`
-* `Blurb` :
 * `Sources` :
   * [IEEE - Diversity and Inclusion Task Force Interview](https://www.computer.org/publications/tech-news/events/women-in-stem-dr-haas)
 * `Status` : `Not Published`
@@ -97,7 +89,6 @@ an 'h2' heading followed by the main bullet points below:
 ## Margaret Hamilton
 
 * `ID` : `HAM001`
-* `Blurb` :
 * `Sources` :
   * [Software — and a Woman — at the Heart of Lunar Triumph](<https://www.wired.com/insights/2014/08/software-woman-heart-lunar-triumph/>)
 * `Status` : `Not Published`
@@ -105,7 +96,6 @@ an 'h2' heading followed by the main bullet points below:
 ## Ayanna Howard
 
 * `ID` : `HOW001`
-* `Blurb` :
 * `Sources` :
   * [IEEE - Diversity and Inclusion Task Force Interview](https://www.computer.org/publications/tech-news/events/women-in-stem-ayanna-howard)
 * `Status` : `Not Published`
@@ -113,7 +103,6 @@ an 'h2' heading followed by the main bullet points below:
 ## Maria Klawe
 
 * `ID` : `KLA001`
-* `Blurb` :
 * `Sources` :
   * [Wikipedia](https://en.wikipedia.org/wiki/Maria_Klawe)
 * `Status` : `Not Published`
@@ -121,7 +110,6 @@ an 'h2' heading followed by the main bullet points below:
 ## Barbara Liskov
 
 * `ID` : `LIS001`
-* `Blurb` :
 * `Sources` :
   * [IEEE - Diversity and Inclusion Task Force Interview](https://www.computer.org/publications/tech-news/events/women-in-stem-barbara-liskov)
 * `Status` : `Not Published`
@@ -129,7 +117,6 @@ an 'h2' heading followed by the main bullet points below:
 ## Ada Lovelace
 
 * `ID` : `LOV001`
-* `Blurb` :
 * `Sources` :
   * [Wikipedia](https://en.wikipedia.org/wiki/Ada_Lovelace)
   * [Ada Programming Language](https://en.wikipedia.org/wiki/Ada_(programming_language))
@@ -138,7 +125,6 @@ an 'h2' heading followed by the main bullet points below:
 ## Éva Tardos
 
 * `ID` : `TAR001`
-* `Blurb` :
 * `Sources` :
   * [Wikipedia](https://en.wikipedia.org/wiki/%C3%89va_Tardos)
 * `Status` : `Not Published`
@@ -146,7 +132,6 @@ an 'h2' heading followed by the main bullet points below:
 ## Bhavani Thuraisingham
 
 * `ID` : `THU001`
-* `Blurb` :
 * `Sources` :
   * [IEEE - Diversity and Inclusion Task Force Interview](https://www.computer.org/publications/tech-news/events/women-in-stem-bhavani-thuraisingham)
 * `Status` : `Not Published`

@@ -15,6 +15,7 @@ layout: default
   {% if page.image %}
   <div class="featured-image">
     <img src="{{ site.github.url }}/assets/img/{{ page.image }}" />
+    <figcaption>{{ pag e.title }}</figcaption>
   </div>
   {% else %}
   <div class="featured-image">
@@ -24,6 +25,7 @@ layout: default
 
   <article>{{ content }}</article>
 
+  <hr style="margin-top: 20px; margin-bottom: 20px" />
   <div class="post-share">
     <div class="post-date">{{ site.data.settings.sharing_button_prompt }}</div>
     <div class="sharing-icons">

@@ -63,9 +63,10 @@ h6 {
 /* Body */
 body {
   font-family: $base-font-family;
+  font-weight: 300;
 }
 body img {
-  align: middle;
+  // align: middle;
   margin: 5px auto auto auto;
   display: block;
   max-width: 600px;
@@ -79,7 +80,7 @@ p {
   margin-right: 0;
   line-height: 1.65;
   font-family: $body-font-family;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 /* Lists */
@@ -126,8 +127,8 @@ a {
 blockquote {
   margin: 10px 20px 10px;
   padding: 0px 15px;
-  border-left: 0.25em solid #ccc;
-  color: #999;
+  border-left: 0.05em solid #ccc;
+  color: rgb(78, 78, 78);
   line-height: 1.5;
 }
 
@@ -155,4 +156,5 @@ figcaption {
   font-size: 85%;
   line-height: 1.4;
   color: rgb(75, 75, 75);
+  text-align: center;
 }

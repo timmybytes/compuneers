@@ -21,5 +21,8 @@ Compuneers currently uses [Paul Le's Millennial Jekyll theme](https://github.com
 
 ### Issues
 
-- Add biography blurbs to Figure List
-- Migrate site from Jekyll to React-routed site
+- Add more figures to FIGURES.md
+- Add more resources to FIGURES.md
+- Scroll to top feature
+
+-

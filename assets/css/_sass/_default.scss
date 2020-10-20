@@ -12,7 +12,8 @@
 }
 
 p a,
-li a {
+li a,
+strong a {
   border-bottom: 1px solid #000;
   &:hover {
     color: #3eb1df;
