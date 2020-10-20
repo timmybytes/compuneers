@@ -9,17 +9,3 @@
 ## License
 
 Compuneers currently uses [Paul Le's Millennial Jekyll theme](https://github.com/LeNPaul/portfolio-jekyll-theme), licensed under the MIT License. Compuneers itself is also licensed under the [MIT License](https://github.com/timmybytes/compuneers/blob/main/LICENSE.md).
-
----
-
-### Issues
-
-- Add more figures to FIGURES.md
-- Add more resources to FIGURES.md (for finding new figures) or add more resources to the [Resources site-page](https://timmybytes.github.io/compuneers/pages//resources.html)
-- Add simple Scroll-to-Top feature
-- Create directories in `/asstes/img/` for each figure in the [Figure List](./Figure-List.md) according to their `figure-id`
-- Add images to figure-id specific directories in `/assets/img/`
-- Documentation improvements
-- Add custom favicon.ico
-- Add project logo to top of README
-- Run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) checks to create a checklist for the project to be more accessible
