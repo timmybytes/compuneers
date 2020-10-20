@@ -10,13 +10,12 @@ To contribute a new figure post to the project, start by opening an issue for a 
 
 ## Adding a figure to the Figure List
 
-1. Open a new issue and fill in the required fields to discuss the proposed addition with maintainers, and to ensure the figure is a good fit for the project.
+1. Open an [issue for a new figure](https://github.com/timmybytes/compuneers/issues/new?assignees=&labels=enhancement&template=add-a-new-figure.md&title=) and fill in the required fields to discuss the proposed addition with maintainers, and to ensure the figure is a good fit for the project.
 2. If approved/assigned:
    - Fork the repo
-   - Add the figure to the Figure List file with the appropriate resource links in the following format:
+   - Add the figure to the [FIGURES](https://github.com/timmybytes/compuneers/blob/main/FIGURES.md) file with the appropriate resource links in the following format:
      - `Figure Name` as h2 heading
      - `Figure ID` as first three letters of figure's last name + 001 (or 002 if 001 is taken, etc)
-     - `One sentence biographical blurb`
      - `Sources`
        - `Links`
      - `Status: Not Published`
@@ -24,7 +23,7 @@ To contribute a new figure post to the project, start by opening an issue for a 
 
 3. Continue with the below steps
 
-## Writing about a figure in the Figure List
+## Writing about a figure already in the Figure List
 
 1. Open a new issue
 

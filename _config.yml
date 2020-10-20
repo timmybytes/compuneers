@@ -1,4 +1,6 @@
 # Site Build Settings
+url: timmybytes.github.io
+baseurl: /compuneers
 
 # jekyll-paginate configuration
 paginate:            5
