@@ -16,7 +16,8 @@ To contribute a new figure post to the project, start by opening an issue for a 
    - There should be credible sources (preferably at least two separate sources) to draw from and cite for a post.
 
 2. If approved/assigned:
-   - Fork the repo
+   - Fork the repo and clone locally
+   - Create a new branch called `add-figure`
    - Add the figure to the [FIGURES](https://github.com/timmybytes/compuneers/blob/main/FIGURES.md) file with the appropriate resource links in the following format:
      - `Figure Name` as h2 heading
      - `Figure ID` as first three letters of figure's last name + 001 (or 002 if 001 is taken, etc)
@@ -31,8 +32,9 @@ To contribute a new figure post to the project, start by opening an issue for a 
 
 1. Open a new [new figure post issue](https://github.com/timmybytes/compuneers/issues/new?assignees=&labels=enhancement&template=write-a-new-figure-post.md&title=New+Figure+Post+-+%5BFigure+Name+Here%5D).
 2. Wait until you're assigned the figure you're interested in, then:
-   - Fork the repo
-   - Create a new file in the `_posts` directory that follows the [post template](https://timmybytes.github.io/compuneers/meta/post-template.html)
+   - Fork the repo and clone locally
+   - Create a new branch called `add-post`
+   - Create a new file in the `_posts` directory that follows the [post template](https://timmybytes.github.io/compuneers/meta/post-template.html) guidelines
 
 
 ## Style Guide
