@@ -3,7 +3,7 @@
     {% if page.title == "Home" %} {{ site.title }} | {{ site.description }} {% else %} {{ page.title
     }} | {{ site.title }} {% endif %}
   </title>
-
+  <meta name="description" content="Unsung pioneers of computer science" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="utf-8" />
 
@@ -35,4 +35,18 @@
 
   <!-- Use Jekyll SEO plugin -->
   {% seo %}
+
+  <!--  Essential META Tags -->
+  <meta property="og:title" content="Compuneers" />
+  <meta property="og:description" content="Unsung pioneers of computer science" />
+  <meta
+    property="og:image"
+    content="https://timmybytes.github.io/compuneers/assets/img/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg"
+  />
+  <meta property="og:url" content="https://timmybytes.github.io/compuneers" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!--  Non-Essential, But Recommended -->
+  <meta property="og:site_name" content="Compuneers" />
+  <meta name="twitter:image:alt" content="Computer chips on a circuit board" />
 </head>
