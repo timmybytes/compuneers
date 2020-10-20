@@ -11,12 +11,18 @@
   // text-decoration: underline;
 }
 
-p a {
+p a,
+li a {
   border-bottom: 1px solid #000;
   &:hover {
     color: #3eb1df;
     border-bottom: 1px solid #3eb1df;
   }
+}
+
+footer a:hover {
+  color: #3eb1df;
+  border-bottom: 1px solid #3eb1df;
 }
 
 .posts-wrapper {

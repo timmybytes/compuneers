@@ -16,6 +16,10 @@ layout: default
   <div class="featured-image">
     <img src="{{ site.github.url }}/assets/img/{{ page.image }}" />
   </div>
+  {% else %}
+  <div class="featured-image">
+    <img src="{{ site.github.url }}/assets/img/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" />
+  </div>
   {% endif %}
 
   <article>{{ content }}</article>

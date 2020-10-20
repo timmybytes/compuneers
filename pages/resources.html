@@ -1,11 +1,50 @@
 ---
 layout: page
-title: Learning Resources
+title: Resources
+permalink: /resources
 ---
+
 {% for post in site.categories.resources %}
-  <a href="{{ site.github.url }}{{ post.url }}">
-    <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
-      <h2><span>{{ post.title }}</span></h2>
-    </div>
-  </a>
+<a href="{{ site.github.url }}{{ post.url }}">
+  <div
+    class="featured-posts"
+    {%
+    if
+    post.image
+    %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"
+    {%
+    endif
+    %}
+  >
+    <h2><span>{{ post.title }}</span></h2>
+  </div>
+</a>
 {% endfor %}
+
+<h2>Resources</h2>
+<ul>
+  <li>
+    <a href="https://blog.newrelic.com/culture/black-history-month-computer-science-infographic/"
+      >7 Black Pioneers in Computer Science</a
+    >
+  </li>
+  <li>
+    <a href="https://blog.newrelic.com/culture/10-lgbt-computer-science-pioneers/"
+      >Programming Pride: 10 LGBT Pioneers of Computer Science</a
+    >
+  </li>
+  <li><a href="https://en.wikipedia.org/wiki/ENIAC#Programmers">The ENIAC Programmers</a></li>
+  <li><a href="https://awc-hq.org/home.html">Association for Women in Computing</a></li>
+  <li>
+    <a href="https://rhizome.org/editorial/2013/feb/19/queer-computing-1/"
+      >A Queer History of Computing</a
+    >
+  </li>
+  <li><a href="https://www.rebootrepresentation.org/">Reboot Representation</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Systers">Systers Mailing List</a></li>
+  <li>
+    <a href="https://blog.newrelic.com/culture/trailblazing-women-science-technology-inspiration/"
+      >Trailblazing Women in Science and Technology Who Inspired Us</a
+    >
+  </li>
+</ul>

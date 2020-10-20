@@ -1,5 +1,10 @@
 {
   "cSpell.words": [
     "compuneers"
-  ]
+  ],
+  "workbench.colorCustomizations": {
+    "[Code Blue]": {
+      "editorGutter.background": "#2a324b"
+    }
+  }
 }

@@ -100,6 +100,7 @@ ol li {
 
 li {
   margin-bottom: 1rem;
+  line-height: 1.67;
 }
 
 dt {
@@ -148,4 +149,10 @@ th,
 td {
   padding: 15px;
   text-align: left;
+}
+
+figcaption {
+  font-size: 85%;
+  line-height: 1.4;
+  color: rgb(75, 75, 75);
 }
