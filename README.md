@@ -24,5 +24,3 @@ Compuneers currently uses [Paul Le's Millennial Jekyll theme](https://github.com
 - Add more figures to FIGURES.md
 - Add more resources to FIGURES.md
 - Scroll to top feature
-
--
