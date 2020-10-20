@@ -10,7 +10,12 @@ To contribute a new figure post to the project, start by opening an issue for a 
 
 ## Adding a figure to the Figure List
 
-1. Open an [issue for a new figure](https://github.com/timmybytes/compuneers/issues/new?assignees=&labels=enhancement&template=add-a-new-figure.md&title=) and fill in the required fields to discuss the proposed addition with maintainers, and to ensure the figure is a good fit for the project.
+1. Open an [issue for a new figure](https://github.com/timmybytes/compuneers/issues/new?assignees=&labels=enhancement&template=add-a-new-figure.md&title=) and fill in the required fields to discuss the proposed addition with maintainers, and to ensure the figure is a good fit for the project:
+
+   - The figure should be a woman, a person of color, and/or LGBTQIA+. This rule is very flexible, but keep in mind the project is specifically meant to lift up overlooked and marginalized figures in Computer Science history. Steve Jobs and Bill Gates are not the target demographic to feature here.
+   - The figure should work or have worked in or contributed to the general field of Computer Science in a meaningful way.
+   - There should be credible sources (preferably at least two separate sources) to draw from and cite for a post.
+
 2. If approved/assigned:
    - Fork the repo
    - Add the figure to the [FIGURES](https://github.com/timmybytes/compuneers/blob/main/FIGURES.md) file with the appropriate resource links in the following format:
@@ -19,7 +24,7 @@ To contribute a new figure post to the project, start by opening an issue for a 
      - `Sources`
        - `Links`
      - `Status: Not Published`
-   - Submit a PR with this change (please do not create new post for a figure until this PR has been merged)
+   - Submit a PR with this change (please do not create new post for a figure until this PR has been reviewed and merged)
 
 3. Continue with the below steps
 
@@ -27,16 +32,11 @@ To contribute a new figure post to the project, start by opening an issue for a 
 
 1. Open a new issue
 
-You can choose a figure from the established [Figure List](#), or [open an issue to add a figure to write about](#), as long as the following criteria are met:
 
-- The figure could be a woman, a person of color, and/or LGBTQIA+. This rule is very flexible, but keep in mind the project is specifically meant to lift up overlooked and marginalized figures in Computer Science.
-- The figure will have worked in or contributed to the general field of Computer Science.
-- There should be credible sources (preferably at least two separate sources) to draw from and cite for a post.
-- The post adheres to the project's [Style Guide](#style-guide) and [Contributing Guidelines](#)
+- The post adheres to the project's [Style Guide](#style-guide) and [Code of Conduct](https://github.com/timmybytes/compuneers/blob/main/CODE_OF_CONDUCT.md)
 
-### Style Guide
 
-#### Post Content
+## Style Guide
 
 Posts should follow the [Post Template](#) format that includes the following:
 
@@ -101,5 +101,3 @@ anticipating modern computing a century before being realized.
 ```
 
 <figcaption align="center">Sample post on Ada Lovelace</figcaption>
-
-#### Pull Requests
