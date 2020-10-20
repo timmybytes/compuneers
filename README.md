@@ -20,3 +20,6 @@ Compuneers currently uses [Paul Le's Millennial Jekyll theme](https://github.com
 - Create directories in `/asstes/img/` for each figure in the [Figure List](./Figure-List.md) according to their `figure-id`
 - Add images to figure-id specific directories in `/assets/img/`
 - Documentation improvements
+- Add custom favicon.ico
+- Add project logo to top of README
+- Run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) checks to create a checklist for the project to be more accessible
